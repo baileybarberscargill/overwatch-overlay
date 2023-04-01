@@ -3,7 +3,7 @@
 
 This is an overlay created for Overwatch (created by Blizzard Enterainment). It is written as a NodeCG Bundle.
 
-<img src="https://imgur.com/s2FPykJ.png" width="500"/>
+<img src="https://imgur.com/s2FPykJ.png" width="750"/>
 
 
 ## How the Overlay Works
