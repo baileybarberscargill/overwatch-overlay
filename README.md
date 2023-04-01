@@ -1,5 +1,6 @@
 
-# Overwatch Overlay
+# Overwatch Overlay 
+https://img.shields.io/badge/version-1.0.0-brightgreen
 
 This is an overlay created for Overwatch (created by Blizzard Enterainment). It is written as a NodeCG Bundle.
 
