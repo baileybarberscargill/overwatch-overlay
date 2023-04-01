@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" crossorigin="anonymous">
+		<title>Overlay Dashboard</title>
+	</head>
+	<body id="PanelBackground">
+		<div>
+			<h1 id="TeamName" class="team-name"><b>Team 1</b></h1>
+			<form>
+				<label>
+					Name:
+					<input type="text" id="inputTeamName" maxlength="16">
+				</label>
+				<br>
+				<label>
+					Primary Color:
+					<input type="color" id="inputTeamColorP" value="#FF0000">
+				</label>
+				<br>
+				<label>
+					Secondary Color:
+					<input type="color" id="inputTeamColorS" value="#0000FF">
+				</label>
+				<br>
+				<label>
+					Logo:
+					<select id="inputTeamLogo" value=""></select>
+				</label>
+			</form>
+			<div><img id="teamLogo" src=""></div>
+		
+			<div id="root"></div>
+			<script type="module" src="./team2.js"></script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Teko:wght@500&display=swap');
+
+body {
+    background-color: transparent;
+    font-family: 'Teko', 'Sans-Serif';
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.Left {
+    position: absolute;
+    left: 0cm;
+    top: 1.693cm;
+    width: 20.214cm;
+    height: 1.834cm;
+    z-index: 11;
+  }
+  .left_atkdef {
+    background-color: rgb( 0, 1, 0 );
+    position: absolute;
+    left: 18.239cm;
+    top: 0cm;
+    width: 1.976cm;
+    height: 1.834cm;
+    z-index: 8;
+  }
+  .left_score {
+    background-color: rgb( 255, 255, 255 );
+    position: absolute;
+    left: 16.263cm;
+    top: 0cm;
+    width: 1.976cm;
+    height: 1.834cm;
+    z-index: 7;
+  }
+  .left_name {
+    background-color: rgb( 255, 0, 0 );
+    position: absolute;
+    left: 0cm;
+    top: 0cm;
+    width: 16.263cm;
+    height: 1.834cm;
+    z-index: 6;
+  }
+
+.Right {
+  position: absolute;
+  left: 47.519cm;
+  top: 1.693cm;
+  width: 20.214cm;
+  height: 1.834cm;
+  z-index: 14;
+}
+.right_atkdef {
+  background-color: rgb( 0, 1, 0 );
+  position: absolute;
+  left: 0cm;
+  top: 0cm;
+  width: 1.976cm;
+  height: 1.834cm;
+  z-index: 13;
+}
+.right_score {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 1.976cm;
+  top: 0cm;
+  width: 1.976cm;
+  height: 1.834cm;
+  z-index: 12;
+}
+.right_name {
+  background-color: rgb( 0, 0, 255 );
+  position: absolute;
+  left: 3.951cm;
+  top: 0cm;
+  width: 16.263cm;
+  height: 1.834cm;
+  z-index: 11;
+}
+
+  .left_name .team-logo {
+    float: right;
+  }
+
+  .left_name .team-name {
+    float: right;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+.right_name .team-logo {
+    float: left;
+}
+
+.right_name .team-name {
+    float: left;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.roleIcon{
+    width: 40px;
+    z-index: 10;
+  }
+
+.centerImg {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.center {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    transform: translateY(5px);
+}
+
+.team-logo {
+    padding: 10px;
+    max-height: 50px;
+    max-width: 100%;
+  }
+
+  .team-name {
+    font-family: 'Kanit', 'Sans Serif';
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    transform: translateY(-4px);
+  }
