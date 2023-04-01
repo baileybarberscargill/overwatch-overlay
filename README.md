@@ -84,3 +84,4 @@ This will adjust your HUD to be slightly lower than normal. This is needed in or
 
 - [ ] Increase name length past 16 characters
 - [ ] Fix bug issue where if only 1 logo is present, it will not be loaded
+- [ ] Use better example screenshot
