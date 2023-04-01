@@ -1,0 +1,75 @@
+{
+  "name": "overwatch-overlay",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^2.0.0",
+    "dashboardPanels": [
+      {
+        "name": "teamRight",
+        "title": "Left Team",
+        "width": 4,
+        "file": "team1.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "teamLeft",
+        "title": "Right Team",
+        "width": 4,
+        "file": "team2.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "data",
+        "title": "Data",
+        "width": 2,
+        "file": "data.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }
+    ],
+    "assetCategories": [
+      {
+        "name": "teamlogos",
+        "title": "Team Logos",
+        "allowedTypes": ["jpg", "jpeg", "png"]
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "private": true
+}
