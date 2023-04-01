@@ -15,7 +15,7 @@ The overlay consists of the 4 seperate sections:
 - NodeCG (backend)
 
 ### Graphics
-The graphics contains the main overlay visible by the viewers. It is written in HTML, CSS and JavaSript. The "index.html" is the main file to be added into OBS as a browser source. 
+The graphics contains the main overlay visible by the viewers. It is written in HTML, CSS and JavaSript. The "index.html" is the main file to be added into OBS as a browser source (1920x1080p size!). 
 
 The data on the overlay is updated by NodeCG Replicants. Data is updated whenever a field is updated on the Dashboard.
 
