@@ -36,14 +36,12 @@ The Dashboard contains 3 panels:
 The panels allow you to change the following:
 
 Left & Right Team:
-
 - Team Name
 - Team Primary Colour
 - Team Secondary Colour
 - Team Logo
 
 Data:
-
 - Left Score
 - Right Score
 - Hide/Show 'Side' (Attack/Defense) Icons
