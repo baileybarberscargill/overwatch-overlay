@@ -56,6 +56,7 @@ NodeCG uses JavaSript as its primary language. You can learn more about NodeCG h
 
 # Setup
 
+## Overlay Setup
 1. Make sure you have [NodeJS and NPM Installed](https://nodejs.org/en/download)
 2. Once installed, you need to download NodeCG (v 2.1.1+). The easiest way is via the nodecg-cli. Open a terminal, and run the following command `npm install --global nodecg-cli`. This will install nodecg-cli globally.
 3. Make a folder for where you want to host the overlay code from.
@@ -64,3 +65,17 @@ NodeCG uses JavaSript as its primary language. You can learn more about NodeCG h
 6. Once NodeCG has setup, navigate to the `bundles` folder, and run the command `git clone https://github.com/baileybarberscargill/Overwatch-Overlay.git` (this will copy all the files needed)
 7. Navigate back inside the NodeCG folder, and run the command `nodecg start` (this may take a minute or two on first boot)
 8. If NodeCG has started correctly, if you go to http://localhost:9090/ it should bring up the dashboard.
+
+## Overwatch Setup
+1. On the PC where the spectator footage is being captured from, go to `Documents/Overwatch/Settings`
+2. Open the `Settings_v0.ini` file in a text editor
+3. Add the following lines:
+  ```dosini
+; SPECTATOR SETTINGS
+BroadcastMarginBottom = "0.050000"
+BroadcastMarginLeft = "0.050000"
+BroadcastMarginRight = "0.050000"
+BroadcastMarginTop = "0.800000"
+; END OF SPECTATOR SETTINGS
+```
+This will adjust your HUD to be slightly lower than normal. This is needed in order for the overlay to look correct.
