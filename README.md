@@ -69,7 +69,7 @@ NodeCG uses JavaSript as its primary language. You can learn more about NodeCG h
 ## Overwatch Setup
 1. On the PC where the spectator footage is being captured from, go to `Documents/Overwatch/Settings`
 2. Open the `Settings_v0.ini` file in a text editor
-3. Add the following lines:
+3. Add the following lines under the `[Render.13]` header:
   ```dosini
 ; SPECTATOR SETTINGS
 BroadcastMarginBottom = "0.050000"
