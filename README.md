@@ -79,3 +79,8 @@ BroadcastMarginTop = "0.800000"
 ; END OF SPECTATOR SETTINGS
 ```
 This will adjust your HUD to be slightly lower than normal. This is needed in order for the overlay to look correct.
+
+# Planned Features/Bug Fixes
+
+[] Increase name length past 16 characters
+[] Fix bug issue where if only 1 logo is present, it will not be loaded
