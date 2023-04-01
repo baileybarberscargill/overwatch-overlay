@@ -62,7 +62,7 @@ NodeCG uses JavaSript as its primary language. You can learn more about NodeCG h
 3. Make a folder for where you want to host the overlay code from.
 4. Inside this folder, make another folder called `NodeCG`
 5. Whilst navigated inside the folder, run the command `nodecg setup` (this may take some time depending on your system)
-6. Once NodeCG has setup, navigate to the `bundles` folder, and run the command `git clone https://github.com/baileybarberscargill/Overwatch-Overlay.git` (this will copy all the files needed)
+6. Once NodeCG has setup, navigate to the `bundles` folder, and run the command `git clone https://github.com/baileybarberscargill/overwatch-overlay.git` (this will copy all the files needed)
 7. Navigate back inside the NodeCG folder, and run the command `nodecg start` (this may take a minute or two on first boot)
 8. If NodeCG has started correctly, if you go to http://localhost:9090/ it should bring up the dashboard.
 
